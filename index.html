@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stock Runner</title>
+    <style type="text/css">
+    body{
+      background: #000;
+      color: #fff;
+    }
+    .downprice{
+      color: red
+    }
+    #name{
+      font-size: 75px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+    <div id="name">
+    <marquee><span id="SNAP"></span><span id="FB"></span></marquee>
+    </div>
+  </body>
+</html>
